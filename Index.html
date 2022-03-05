@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./Style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;395;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Web Design</title>
+</head>
+
+<body>
+    <div class="container position-relative">
+        <!-- Navbar -->
+        <div class="row sticky-top">
+            <nav class="navbar navbar-expand-md p-2 shadow-lg"
+                style="background-color: #e3f2fd; border-radius: 0 0 2rem 2rem;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./Index.html">
+                        <img src="./Image/web-design-logo.png" alt="web-design-logo" height="30px" />
+                    </a>
+                    <h3
+                        class="display-6 fs-5 d-inline d-md-none align-self-end text-primary border-top border-bottom border-primary">
+                        <a class="text-decoration-none" href="#">WebDesignStar</a>
+                    </h3>
+                    <button class="navbar-toggler border-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fas fa-bars text-primary"></i>
+                    </button>
+                    <div class="collapse navbar-collapse pt-3 p-md-0" id="mainNavbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Pages/courses.html">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Pages/articles.html">Articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Pages/sign-up.html">Sign-up / Log-in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Pages/contact-us.html">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Pages/about-us.html">About us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex py-2 pb-md-1">
+                            <input class="form-control me-2 rounded-pill border-primary" type="search"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary rounded-pill" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Hero Page -->
+        <div class="row align-items-center justify-content-center">
+            <div class="col-11 col-md-5 col-lg-4 pt-3 p-lg-0 text-center text-md-start">
+                <h1 class="display-6 d-inline">Learn how to develop a website with
+                    <h6 class="h1 d-inline">WebDesignStar</h6>
+                </h1>
+                <hr class="d-none d-md-block bg-primary">
+                <p class="mt-3 mt-md-0 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatibus vitae asperiores
+                    voluptate harum minima est quos exercitationem?
+                </p>
+                <div class="row text-center align-items-center">
+                    <div class="col">
+                        <i class="fas fa-user-graduate d-block text-primary m-2"></i>
+                        <p>15 Courses</p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-users d-block text-primary m-2"></i>
+                        <p>+8000 Student</p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-chalkboard-teacher d-block text-primary m-2"></i>
+                        <p>+10000 mins teaching</p>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-book d-block text-primary m-2"></i>
+                        <p>+100 Books and Articles</p>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-6">
+                        <a href="/Pages/articles.html" class="btn btn-sm btn-primary rounded-pill w-100">Start learning
+                            now...</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="/Pages/courses.html" class="btn btn-sm btn-outline-primary rounded-pill w-100">See all
+                            courses...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-8 p-5 ">
+                <img src="./Image/hero1.png" alt="" width="100%">
+            </div>
+        </div>
+
+        <hr class="my-5 py-1 rounded-pill bg-primary col-7 m-auto">
+
+        <!-- Master Page -->
+        <div class="row justify-content-center text-center text-md-start">
+            <h3 class="display-4">What do you want to master at?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellendus, a voluptatibus esse possimus
+                est non delectus.</p>
+            <div class="row g-2 g-sm-3 g-lg-4 col-11 align-items-center">
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/java.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Java</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/laravel.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Laravel</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/php.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">PHP</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/android.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Android</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/wordpress1.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">WordPress</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/javascript1.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">JavaScript</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/react2.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">React</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/nodejs1.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">NodeJS</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/python.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Python</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/Web Design logo.png" class="d-block m-auto" alt=""
+                            width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Web Design</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/data science.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Data Science</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/design pattern.png" class="d-block m-auto" alt=""
+                            width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Design Pattern</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2 offset-2 offset-sm-2 offset-md-3 offset-lg-4">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/UI UX.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">UI/UX</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-md-3 col-lg-2">
+                    <div class="text-center shadow p-2 position-relative"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <img src="./Image/Front-end-Tech-png/flutter.png" class="d-block m-auto" alt="" width="50%">
+                        <a href="#" class="stretched-link text-decoration-none link-dark d-block pt-2">
+                            <p class="fw-light fs-5 m-0">Flutter</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="/Pages/courses.html" class="btn btn-outline-primary rounded-pill w-50 mt-4 d-block m-auto">
+                        See All Courses...
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-1 rounded-pill bg-primary col-7 m-auto">
+
+        <!-- Student comments -->
+        <div class="row justify-content-center text-center text-md-start">
+            <h3 class="display-4">Student Comments about us...</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellendus, a voluptatibus esse possimus
+                est non delectus.</p>
+            <div id="carouselOfStudentComment" class="carousel carousel-dark slide w-75  mt-5 " data-bs-ride="carousel"
+                style="background: url(/Image/backgroundOfComment.png); 
+                background-position: center top;
+                background-clip: content-box;
+                background-origin: content-box;
+                background-size: contain; background-repeat: no-repeat;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active h-auto h-100">
+                        <img src="./Image/Student2.png" class="d-block w-100" alt="an student">
+                        <div class="row row-cols-1 justify-content-center text-center mt-3 mx-auto">
+                            <h4 class="display">Amir Vahedi</h4>
+                            <b class="m-0">Student of us in Web development</b>
+                            <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, possimus
+                                quis. Officiis ullam, ratione eligendi, id illum nihil tempora at, sequi voluptatum
+                                itaque aspernatur molestiae cumque perferendis aut quibusdam?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-auto h-100">
+                        <img src="./Image/Student2.png" class="d-block w-100" alt="an student">
+                        <div class="row row-cols-1 justify-content-center text-center mt-3 mx-auto">
+                            <h4 class="display">Amir Vahedi</h4>
+                            <b class="m-0">Student of us in Web development</b>
+                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, natus?
+                                Dolores cumque
+                                est molestiae voluptates, minima sunt voluptas praesentium aliquam fugit illum quae ipsa
+                                pariatur eius voluptatum hic perspiciatis ex.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-auto h-100">
+                        <img src="./Image/Student2.png" class="d-block w-100" alt="an student">
+                        <div class="row row-cols-1 justify-content-center text-center mt-3 mx-auto">
+                            <h4 class="display">Amir Vahedi</h4>
+                            <b class="m-0">Student of us in Web development</b>
+                            <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit fuga odit fugit
+                                laborum voluptate et quo quasi ad aliquid expedita, libero iste animi corrupti iure a,
+                                pariatur molestiae autem quod?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-1 mt-3">
+                <div class="col-6">
+                    <button class="btn rounded-pill d-block ms-auto btn-sm border-0 btn-outline-light" type="button"
+                        data-bs-target="#carouselOfStudentComment" data-bs-slide="prev" aria-label="Next Previous">
+                        <i class="far fa-arrow-alt-circle-left fs-2 text-primary"></i>
+                    </button>
+                </div>
+                <div class="col-6">
+                    <button class="btn rounded-pill d-block btn-sm border-0 btn-outline-light" type="button"
+                        data-bs-target="#carouselOfStudentComment" data-bs-slide="next" aria-label="Next Slide">
+                        <i class="far fa-arrow-alt-circle-right fs-2 text-primary "></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-1 rounded-pill bg-primary col-7 m-auto">
+
+        <!-- Learn Free -->
+        <div class="row justify-content-center text-center text-md-start">
+            <div class="col">
+                <h3 class="display-4">Learn Free...</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellendus, a voluptatibus esse
+                    possimus est non delectus.
+                </p>
+            </div>
+            <div class="p-0 me-auto col-5 d-none d-xl-block float-end">
+                <div class="row row-cols-4 text-center">
+                    <i class="fas fa-book text-primary opacity-50"
+                        style="font-size: 6em; transform: rotate(15deg);"></i>
+                    <i class="fas fa-podcast text-primary opacity-50"
+                        style="font-size: 6em; transform: rotate(-15deg);"></i>
+                    <i class="fas fa-newspaper text-primary opacity-50"
+                        style="font-size: 6em; transform: rotate(15deg);"></i>
+                    <i class="fas fa-question text-primary opacity-50"
+                        style="font-size: 6em; transform: rotate(-15deg);"></i>
+                </div>
+            </div>
+
+            <div class="row col-11 col-sm-12 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-3 g-sm-4">
+                <div class="col">
+                    <div class="card border-primary p-0 text-center shadow h-100"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <div class="card-header">For Readers...</div>
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                Books
+                                <i class="fas fa-book text-primary"></i>
+                            </h3>
+                            <div class="list-group list-group-flush">
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    Thinhing in C++
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    HTML & CSS | design and build website
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    Thinking in Java
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    Clean Code
+                                </a>
+                                <p class="text-muted m-0 pt-2">+100 others</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="/Pages/articles.html" class="btn btn-outline-primary btn-sm rounded-pill mx-auto">
+                                See All Books...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-primary p-0 text-center shadow  h-100"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <div class="card-header">For Listeners...</div>
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                Podcasts
+                                <i class="fas fa-podcast text-primary"></i>
+                            </h3>
+                            <div class="list-group list-group-flush">
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    The future of PHP
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    What is Email Marketing
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    Plan managment for Programmers
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    How to start programming?
+                                </a>
+                                <p class="text-muted m-0 pt-2">+50 others</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="/Pages/articles.html" class="btn btn-outline-primary btn-sm rounded-pill mx-auto">
+                                See All Podcasts...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-primary p-0 text-center shadow h-100"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <div class="card-header">New Released...</div>
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                Articles
+                                <i class="fas fa-newspaper text-primary"></i>
+                            </h3>
+                            <div class="list-group list-group-flush">
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    How is DEV-OPS?
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    What is Front-end?
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    What is Host?
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    What is Domain?
+                                </a>
+                                <p class="text-muted m-0 pt-2">+200 others</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="/Pages/articles.html" class="btn btn-outline-primary btn-sm rounded-pill mx-auto">
+                                See All Articles...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offset-md-2 col-md-8 offset-lg-3 col-lg-6 col-xl offset-xl-0">
+                    <div class="card border-primary p-0 text-center shadow h-100"
+                        style="background-color: rgb(227, 248, 255); border-radius: 1rem;">
+                        <div class="card-header">Have a question?</div>
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                FAQ
+                                <i class="fas fa-question text-primary"></i>
+                            </h3>
+                            <div class="list-group list-group-flush">
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    How much math should i know?
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    How much time take to become an expert?
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    Where to start?
+                                </a>
+                                <a href="/Pages/articles.html"
+                                    class="list-group-item list-group-item-action px-0 bg-transparent">
+                                    How to find best content to learn?
+                                </a>
+                                <p class="text-muted m-0 pt-2">+60 others</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="/Pages/articles.html" class="btn btn-outline-primary btn-sm rounded-pill mx-auto">
+                                See All Questions...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-1 rounded-pill bg-primary col-7 m-auto">
+
+        <!-- Team Section -->
+        <div class="row justify-content-center text-center text-md-start">
+            <h3 class="display-4">Be familiar with our instructurers...</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellendus, a voluptatibus esse
+                possimus est non delectus.
+            </p>
+            <div id="carouselOfTeachers" class="carousel carousel-dark slide w-75  mt-5" data-bs-ride="carousel" style="background: url(/Image/ ); 
+                background-position: center top;
+                background-clip: content-box;
+                background-origin: content-box;
+                background-size: contain; 
+                background-repeat: no-repeat;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active h-auto h-100">
+                        <img src="./Image/Student2.png" class="d-block w-100" alt="an student">
+                        <div class="row row-cols-1 justify-content-center text-center mt-3 mx-auto">
+                            <h3 class="display">Amir Vahedi</h3>
+                            <ul class="list-group list-group-flush col-12 col-md-10">
+                                <div class="row row-cols-1 row-cols-md-2">
+                                    <li
+                                        class="list-group-item border-0 border-primary d-block text-md-end border-end bg-transparent">
+                                        Front-end Developer in Google</li>
+                                    <li
+                                        class="list-group-item border-0 border-primary d-block text-md-start border-start bg-transparent">
+                                        +12 Years Experience</li>
+                                    <li
+                                        class="list-group-item border-0 border-primary d-block text-md-end border-end bg-transparent">
+                                        +1000 Student</li>
+                                    <li
+                                        class="list-group-item border-0 border-primary d-block text-md-start border-start bg-transparent">
+                                        +9000 minutes of teaching</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-auto h-100">
+                        <img src="./Image/Student2.png" class="d-block w-100" alt="an student">
+                        <div class="row row-cols-1 justify-content-center text-center mt-3 mx-auto">
+                            <h4 class="display">Amir Vahedi</h4>
+                            <ul class="list-group list-group-flush col-12 col-md-10">
+                                <div class="row row-cols-1 row-cols-md-2">
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-end border-end bg-transparent">
+                                        Front-end Developer in Google</li>
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-start border-start  bg-transparent">
+                                        +12 Years Experience</li>
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-end border-end  bg-transparent">
+                                        +1000 Student</li>
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-start border-start bg-transparent">
+                                        +9000 minutes of teaching</li>
+                                </div>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-auto h-100">
+                        <img src="./Image/Student2.png" class="d-block w-100" alt="an student">
+                        <div class="row row-cols-1 justify-content-center text-center mt-3 mx-auto">
+                            <h4 class="display">Amir Vahedi</h4>
+                            <ul class="list-group list-group-flush col-12 col-md-10">
+                                <div class="row row-cols-1 row-cols-md-2">
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-end border-end bg-transparent">
+                                        Front-end Developer in Google</li>
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-start border-start bg-transparent">
+                                        +12 Years Experience</li>
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-end border-end bg-transparent">
+                                        +1000 Student</li>
+                                    <li
+                                        class="list-group-item border-0 d-block border-primary text-md-start border-start bg-transparent">
+                                        +9000 minutes of teaching</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-1 mt-3">
+                <div class="col-6">
+                    <button class="btn rounded-pill d-block ms-auto btn-sm border-0 btn-outline-light" type="button"
+                        data-bs-target="#carouselOfTeachers" data-bs-slide="prev" aria-label="Next Previous">
+                        <i class="far fa-arrow-alt-circle-left fs-2 text-primary"></i>
+                    </button>
+                </div>
+                <div class="col-6">
+                    <button class="btn rounded-pill d-block btn-sm border-0 btn-outline-light" type="button"
+                        data-bs-target="#carouselOfTeachers" data-bs-slide="next" aria-label="Next Slide">
+                        <i class="far fa-arrow-alt-circle-right fs-2 text-primary "></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12">
+                <a href="/Pages/about-us.html" class="btn btn-outline-primary rounded-pill w-50 mt-4 d-block m-auto">
+                    More about us and team...
+                </a>
+            </div>
+        </div>
+
+        <hr class="my-5 py-1 rounded-pill bg-primary col-7 m-auto">
+
+        <!-- Choose -->
+        <div class="row justify-content-center text-center text-md-start">
+            <h3 class="display-4">Why you should choose us...</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellendus, a voluptatibus esse
+                possimus est non delectus.
+            </p>
+            <div class="row my-5 ">
+                <div class="col-12 col-lg-5 order-last order-lg-first text-center align-items-center">
+                    <img src="./Image/like.png" class="mt-3 position-relative top-50" id="likeImgAnimated" alt="like"
+                        width="50%">
+                </div>
+
+                <div class="col-12 col-lg-7 order-first order-lg-last text-start">
+                    <ul class="list-group list-group-flush">
+                        <div class="row g-2">
+                            <li class="list-group-item border-0 bg-transparent">
+                                <div class="fw-light row align-items-center fs-4">
+                                    <div class="p-2 bg-primary bg-opacity-25 position-relative col-auto me-2"
+                                        style="width: 3rem; height: 3rem; border-radius: 1rem;">
+                                        <i
+                                            class="fas fa-history text-primary position-absolute top-50 start-50 translate-middle">
+                                        </i>
+                                    </div>
+                                    <h5 class="fw-light col my-0">
+                                        Save your time, With the teaching of experienced teachers...
+                                    </h5>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item border-0 bg-transparent">
+                                <div class="fw-light row align-items-center fs-4">
+                                    <div class="p-2 bg-primary bg-opacity-25 position-relative col-auto me-2"
+                                        style="width: 3rem; height: 3rem; border-radius: 1rem;">
+                                        <i
+                                            class="fas fa-video text-primary position-absolute top-50 start-50 translate-middle">
+                                        </i>
+                                    </div>
+                                    <h5 class="fw-light col my-0">
+                                        Get free course updates...
+                                    </h5>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item border-0 bg-transparent">
+                                <div class="fw-light row align-items-center fs-4">
+                                    <div class="p-2 bg-primary bg-opacity-25 position-relative col-auto me-2"
+                                        style="width: 3rem; height: 3rem; border-radius: 1rem;">
+                                        <i
+                                            class="fas fa-camera text-primary position-absolute top-50 start-50 translate-middle">
+                                        </i>
+                                    </div>
+                                    <h5 class="fw-light col my-0">
+                                        Maintain engagement with monthly webinars...
+                                    </h5>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item border-0 bg-transparent">
+                                <div class="fw-light row align-items-center fs-4">
+                                    <div class="p-2 bg-primary bg-opacity-25 position-relative col-auto me-2"
+                                        style="width: 3rem; height: 3rem; border-radius: 1rem;">
+                                        <i
+                                            class="fas fa-scroll text-primary position-absolute top-50 start-50 translate-middle">
+                                        </i>
+                                    </div>
+                                    <h5 class="fw-light col my-0">
+                                        Evaluate and certify online...
+                                    </h5>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item border-0 bg-transparent">
+                                <div class="fw-light row align-items-center fs-4">
+                                    <div class="p-2 bg-primary bg-opacity-25 position-relative col-auto me-2"
+                                        style="width: 3rem; height: 3rem; border-radius: 1rem;">
+                                        <i
+                                            class="fas fa-thumbs-up text-primary position-absolute top-50 start-50 translate-middle">
+                                        </i>
+                                    </div>
+                                    <h5 class="fw-light col my-0">
+                                        Introduction to the labor market after receiving technical approval...
+                                    </h5>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item border-0 bg-transparent">
+                                <div class="fw-light row align-items-center fs-4">
+                                    <div class="p-2 bg-primary bg-opacity-25 position-relative col-auto me-2"
+                                        style="width: 3rem; height: 3rem; border-radius: 1rem;">
+                                        <i
+                                            class="fas fa-hand-holding-usd text-primary position-absolute top-50 start-50 translate-middle">
+                                        </i>
+                                    </div>
+                                    <h5 class="fw-light col my-0">
+                                        Money back guarantee...
+                                    </h5>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Marketing -->
+    <div class="container-fluid emailMarketing position-relative">
+        <div class="container-sm bg-success bg-opacity-25 p-3 p-md-4 row 
+        position-absolute top-50 start-50 translate-middle rounded-3 
+        align-content-center mx-auto shadow col-11 col-lg-8 col-xl-7 col-xxl-6">
+            <div class="col-12 col-md-7 text-md-start ps-md-0">
+                <h3 class="fw-normal">Subscribe to the site newsletter...</h3>
+                <p class="mb-1 d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <form action="" class="col-12 col-md-5 row align-content-center justify-content-center ">
+                <div class="col-11 pe-2">
+                    <label for="emailMarketingEmailInput" class="ms-3 visually-hidden">Email Address</label>
+                    <input type="email" class="form-control bg-light bg-opacity-50 shadow-sm border-0" name=""
+                        id="emailMarketingEmailInput" placeholder="email@example.com">
+                </div>
+                <div class="col-1 align-self-center p-0">
+                    <button type="submit" class="btn btn-outline-primary rounded-3">Join</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid" style="background-color: rgb(15, 85, 213); margin-top: -3px;">
+        <div class="container">
+            <div class="row text-light pb-5">
+                <div class="col-12 col-lg-4 order-1 order-sm-0 pt-4 p-lg-0">
+                    <h4 class="text-center">About us</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi alias minus odio
+                        blanditiis
+                        aliquam ab laborum distinctio dolores, quisquam quia praesentium, animi assumenda libero
+                        inventore temporibus. Doloremque aliquam neque dolores doloribus ut? Deleniti excepturi
+                        suscipit
+                        laboriosam mollitia ad impedit saepe vero voluptatem, repudiandae magni aliquam labore
+                        ullam
+                        deserunt facere fugit!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 order-0 order-sm-1 align-self-center">
+                    <img src="./Image/web-design-logo.png" alt="" class="col-12 w-75 mx-auto d-block">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 order-2">
+                    <h4 class="text-center">Contact us</h4>
+                    <address>
+                        <b>Address: </b>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptates.
+                    </address>
+                    <address>
+                        <b>Contact: </b>
+                        +1-123456789
+                    </address>
+                    <div class="row">
+                        <div class="col-6 text-center position-relative">
+                            <i class="fab fa-instagram fs-3"></i>
+                            <h5>Instagram</h5>
+                            <a href="#" class="stretched-link link-light text-decoration-none">Follow us</a>
+                        </div>
+                        <div class="col-6 text-center position-relative">
+                            <i class="fab fa-whatsapp fs-3"></i>
+                            <h5>Whatsapp</h5>
+                            <a href="#" class="stretched-link link-light text-decoration-none">Ask backup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

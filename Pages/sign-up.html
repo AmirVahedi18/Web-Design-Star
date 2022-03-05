@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="../Style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;395;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Web Design</title>
+</head>
+
+<body>
+    <div class="container position-relative">
+        <!-- Navbar -->
+        <div class="row sticky-top">
+            <nav class="navbar navbar-expand-md p-2 shadow-lg"
+                style="background-color: #e3f2fd; border-radius: 0 0 2rem 2rem;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../Index.html">
+                        <img src="../Image/web-design-logo.png" alt="web-design-logo" height="30px" />
+                    </a>
+                    <h3
+                        class="display-6 fs-5 d-inline d-md-none align-self-end text-primary border-top border-bottom border-primary">
+                        <a class="text-decoration-none" href="#">WebDesignStar</a>
+                    </h3>
+                    <button class="navbar-toggler border-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fas fa-bars text-primary"></i>
+                    </button>
+                    <div class="collapse navbar-collapse pt-3 p-md-0" id="mainNavbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="courses.html">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="articles.html">Articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex py-2 pb-md-1">
+                            <input class="form-control me-2 rounded-pill border-primary" type="search"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary rounded-pill" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Sign-up Form -->
+        <div class="row justify-content-center text-center text-md-start mt-5">
+            <h3 class="display-4">Sign up to join our club...</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellendus, a voluptatibus esse
+                possimus est non delectus.
+            </p>
+            <form action="" class="row g-3 gy-lg-4 col-12 col-lg-10 col-xl-9 col-xxl-8 needs-validation">
+                <div class="col-12 col-md-6">
+                    <label for="firstNameInput" class="form-label text-muted">First Name</label>
+                    <input type="text" class="form-control" id="firstNameInput" required>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="lastNameInput" class="form-label text-muted">Last Name</label>
+                    <input type="text" class="form-control" id="lastNameInput" required>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="emailInput" class="form-label text-muted">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="email@example.com" required>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="gender" class="form-label text-muted">Gender</label>
+                    <select name="" id="gender" class="form-select" required>
+                        <option value="">Select</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="passwordInput" class="form-label text-muted">Password</label>
+                    <input type="password" class="form-control" id="passwordInput" required>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="rapeatPasswordInput" class="form-label text-muted">Repeat Password</label>
+                    <input type="password" class="form-control" id="rapeatPasswordInput" required>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="usernameInput" class="form-label text-muted">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupTextForUsername">@</span>
+                        <input type="text" class="form-control" id="usernameInput"
+                            aria-describedby="inputGroupTextForUsername" aria-label="Username" required>
+                    </div>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <div class="col-12 text-center">
+                    <label for="getNotificationEmail" class="form-check-label">
+                        <input type="checkbox" class="form-check-input" id="getNotificationEmail">
+                        Do you want to get email notification for new courses, offers, and etc.?
+                    </label>
+                </div>
+                <a href="#" class="link-primary  col-auto mx-auto mt-3">Have an account? log in</a>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary rounded-pill btn-lg">Sign up</button>
+                </div>
+            </form>
+
+        </div>
+
+        <hr class="my-5 py-1 rounded-pill bg-primary col-7 m-auto">
+
+        <!-- Log-in Form -->
+        <div class="row justify-content-center text-center text-md-start">
+            <h3 class="display-4">Login to access to your enroled courses...</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, repellendus, a voluptatibus esse
+                possimus est non delectus.
+            </p>
+            <form action="" class="row g-3 gy-lg-4 col-12 col-lg-10 col-xl-9 col-xxl-8 needs-validation">
+                <div class="col-12 col-md-6">
+                    <label for="logInUsernameInput" class="form-label text-muted">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupTextForUsername">@</span>
+                        <input type="text" class="form-control" id="logInUsernameInput"
+                            aria-describedby="inputGroupTextForUsername" aria-label="Username" required>
+                    </div>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="logInPasswordInput" class="form-label text-muted">Password</label>
+                    <input type="password" class="form-control" id="logInPasswordInput" required>
+                    <div class="valid-feedback">Looks Good!</div>
+                    <div class="invalid-feedback">It is required!</div>
+                </div>
+                <a href="#" class="link-primary col-auto mx-auto mt-3">Forget Password?</a>
+
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary rounded-pill btn-lg">Log in</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- Email Marketing -->
+    <div class="container-fluid emailMarketing position-relative">
+        <div class="container-sm bg-success bg-opacity-25 p-3 p-md-4 row 
+        position-absolute top-50 start-50 translate-middle rounded-3 
+        align-content-center mx-auto shadow col-11 col-lg-8 col-xl-7 col-xxl-6">
+            <div class="col-12 col-md-7 text-md-start ps-md-0">
+                <h3 class="fw-normal">Subscribe to the site newsletter...</h3>
+                <p class="mb-1 d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <form action="" class="col-12 col-md-5 row align-content-center justify-content-center ">
+                <div class="col-11 pe-2">
+                    <label for="emailMarketingEmailInput" class="ms-3 visually-hidden">Email Address</label>
+                    <input type="email" class="form-control bg-light bg-opacity-50 shadow-sm border-0" name=""
+                        id="emailMarketingEmailInput" placeholder="email@example.com">
+                </div>
+                <div class="col-1 align-self-center p-0">
+                    <button type="submit" class="btn btn-outline-primary rounded-3">Join</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid" style="background-color: rgb(15, 85, 213); margin-top: -3px;">
+        <div class="container">
+            <div class="row text-light pb-5">
+                <div class="col-12 col-lg-4 order-1 order-sm-0 pt-4 p-lg-0">
+                    <h4 class="text-center">About us</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi alias minus odio
+                        blanditiis
+                        aliquam ab laborum distinctio dolores, quisquam quia praesentium, animi assumenda libero
+                        inventore temporibus. Doloremque aliquam neque dolores doloribus ut? Deleniti excepturi
+                        suscipit
+                        laboriosam mollitia ad impedit saepe vero voluptatem, repudiandae magni aliquam labore
+                        ullam
+                        deserunt facere fugit!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 order-0 order-sm-1 align-self-center">
+                    <img src="../Image/web-design-logo.png" alt="" class="col-12 w-75 mx-auto d-block">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 order-2">
+                    <h4 class="text-center">Contact us</h4>
+                    <address>
+                        <b>Address: </b>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptates.
+                    </address>
+                    <address>
+                        <b>Contact: </b>
+                        +1-123456789
+                    </address>
+                    <div class="row">
+                        <div class="col-6 text-center position-relative">
+                            <i class="fab fa-instagram fs-3"></i>
+                            <h5>Instagram</h5>
+                            <a href="#" class="stretched-link link-light text-decoration-none">Follow us</a>
+                        </div>
+                        <div class="col-6 text-center position-relative">
+                            <i class="fab fa-whatsapp fs-3"></i>
+                            <h5>Whatsapp</h5>
+                            <a href="#" class="stretched-link link-light text-decoration-none">Ask backup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
